@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "OddStreamPagingKit"
-  s.version          = "3.0.0"
+  s.version          = "1.18.2"
   s.summary          = "PagingKit provides customisable menu & content UI."
   s.swift_version = '5.1'
 
