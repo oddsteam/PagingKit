@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "PagingKit"
-  s.version          = "1.18.2"
+  s.name             = "OddStreamPagingKit"
+  s.version          = "3.0.0"
   s.summary          = "PagingKit provides customisable menu & content UI."
   s.swift_version = '5.1'
 
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
     PagingKit has more flexible layout and design than the other libraries. You can construct "Menu" and "Content" UI, and they work together. That's all features this library provides. You can fit layout and design of Pagingin UI to your apps as you like.
                          DESC
 
-  s.homepage         = "https://github.com/kazuhiro4949/PagingKit"
+  s.homepage         = "https://github.com/oddsteam/PagingKit"
   s.license          = 'MIT'
   s.author           = { "Kazuhiro Hayashi" => "k.hayashi.info@gmail.com" }
-  s.source           = { :git => "https://github.com/kazuhiro4949/PagingKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/oddsteam/PagingKit.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
