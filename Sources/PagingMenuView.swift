@@ -670,7 +670,7 @@ open class PagingMenuView: UIScrollView {
     
     
     /// get correct origin X of menu view's container view, If menu view is scrollable.
-    func getExpectedAlignmentPositionXIfNeeded() -> CGFloat? {
+    public func getExpectedAlignmentPositionXIfNeeded() -> CGFloat? {
         let expectedOriginX = cellAlignment.calculateOriginX(from: maxSafedOffset)
         guard !hasScrollableArea else {
             return nil
